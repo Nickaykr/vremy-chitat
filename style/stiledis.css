@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background:  #99ff33;
+    padding-left: 1%;
+    height: 30%;
+    /* border: dashed red; */
+    /* border: 1px solid transparent; */
+}
+#logo{
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#katalog{
+    background: rgb(20, 185, 20);
+    color: white;
+    cursor: pointer;
+}
+#navigation {
+    background: #80ec0b;
+    padding-left: 2%;
+    position: sticky;
+    /* border: dashed blue; */
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#content {
+    background: #cbf79f;
+    min-height: 75vh;
+    padding-left: 20%;
+    padding-bottom: 1%;
+    /* border: dashed blue; */
+    border: 1px solid transparent;
+}
+#footer{
+    background: green;
+    /* border: dashed red; */
+    padding-left: 2%;
+    border: 1px solid transparent;
+}
+#poisk {
+    margin-top: -5%;
+    margin-left: 15%;
+    padding-bottom: 2%;
+    width:70%;
+    height: 50%;
+    /* border: dashed red; */
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+}
+.search {
+    width: 30%;
+}
+#bluba{
+    background: rgb(20, 185, 20);
+    border: none;
+    cursor: pointer;
+}
+#korsina{
+    width: 3%;
+    height: 40px;
+    margin-left: 10%;
+}
+#diskont{
+    width: 3%;
+    height: 40px;
+    margin-left: 5%;
+}
+form {
+   
+    width: 50%;
+    margin-top: 5%;
+}
+#otz {
+    width: 200px;
+    height: 15px;
+    padding: 5px 10px;
+    border: 1px solid #999;
+    font-size: 16px;
+    font-family: Tahoma;
+}
+.input-container {
+    margin-bottom: 10px; /* Регулируйте отступ по своему усмотрению */
+}
+.buttonform{
+    background: rgb(20, 185, 20);
+    color: white;
+    border: none;
+}

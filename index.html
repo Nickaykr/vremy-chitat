@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Главная</title>
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="icon" type="image/png" href="images/mlogo.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <img src="images/logo.png" id="logo">
+                <div id="poisk"> 
+                    <input type="button" name="katalog" value="Каталог" id="katalog">
+                    <input type="text" name="text" class="search" placeholder="Поиск">
+                    <button  id="bluba">
+                        <img src="images/luba.png" id="luba" width="20" height="20">
+                    </button>
+                    <input type="image"  id="korsina" src="images/korsins.png" >
+                    <input type="image"  onclick="window.location.href='diskont.html'" id="diskont" src="images/dislont.png" >
+                </div>
+                <div class="modal" id="myModal">
+                    <div class="modal-content">
+                        <h2>Оформление заказа</h2>
+                        <div id="kn1">
+                            <img src="images/1.jpg" id="productIcon" width="100" height="150">
+                            <h3>Мастер и Маргарита</h3>
+                            <h3 class="pr1">320  &#8381;</h3>
+                        </div>
+                        <div id="kn2">
+                            <img src="images/3.jpg" id="productIcon" width="100" height="150">
+                            <h3>Трудно быть богом</h3>
+                            <h3 class="pr1">270  &#8381;</h3>
+                        </div>
+                        <a id="total">Итого: 0 &#8381;</a><br>
+                        <a id="sale">Скидка: 0 &#8381;</a><br>
+                        <a id="discountedTotal">Итого со скидкой: 0 &#8381;</a><br>
+                        <div class="modal-footer">
+                            <button id="closeModal" >Закрыть</button>
+                            <button id="oformit">Оформить заказ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="navigation">
+                <input type="button" name="sale" value="Акции" id="salekn">
+                <div class="modal" id="myModal1">
+                    <div class="modal-content">
+                        <h2>Скидка на пeрвую книгу 10%</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="content">
+                <div id="banner">
+                    <div class="side"><img src="images/banner4.jpg" ></div>
+                    <div class="sade1"><img src="images/logobanner.png"></div>
+                </div>
+                <div id="tovar">
+                    <div class="book">
+                        <img src="images/1.jpg" width="200" height="340"><br>
+                        <a class="price">320  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart2.html'">Мастер и Маргарита</a><br>
+                        <a>Михаил Булгаков</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" id="master">
+                        </div>
+                    </div>
+                    <div class="book">
+                        <img src="images/3.jpg" width="200" height="340"><br>
+                        <a class="price">270  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart1.html'">Трудно быть богом</a><br>
+                        <a>Аркадий и Борис Стругацкие</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                    <div class="book">
+                        <img src="images/2.jpg" width="200" height="340"><br>
+                        <a class="price">320  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart3.html'">Понедельник начи....</a><br>
+                        <a>Аркадий и Борис Стругацкие</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                    <div class="book">
+                        <img src="images/9.jpg" width="200" height="340"><br>
+                        <a class="price">300  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart4.html'">Пикник на обочине</a><br>
+                        <a>Аркадий и Борис Стругацкие</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                </div>
+                <div id="tovar1">
+                    <div class="book">
+                        <img src="images/ostrov.jpg" width="200" height="340"><br>
+                        <a class="price">270  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart5.html'">Таинственный остров</a><br>
+                        <a>Жюль Верн</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                    <div class="book">
+                        <img src="images/skot.jpg" width="200" height="340"><br>
+                        <a class="price">190  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart6.html'">Скотный двор</a><br>
+                        <a>Джордж Оруэлл</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                    <div class="book">
+                        <img src="images/div.jpg" width="200" height="340"><br>
+                        <a class="price">305  &#8381;</a><br>
+                        <a class="perehod" onclick="window.location.href='kart7.html'">О дивный новй мир</a><br>
+                        <a>Олдос Хаксли</a><br>
+                        <div class="knoki">
+                            <input type="button" value="Купить" class="kupid">
+                            <input type="image" src="images/korsins.png" class="kor" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div>Logo generated by <a href="https://www.designevo.com/" title="Free Online Logo Maker">DesignEvo free logo designer</a></div>
+            </div>
+        </div>
+        <script src="script/srcript.js"></script>
+    </body>
+</html>

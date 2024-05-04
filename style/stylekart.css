@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background:  #99ff33;
+    padding-left: 1%;
+    height: 30%;
+    /* border: dashed red; */
+    /* border: 1px solid transparent; */
+}
+#logo{
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#katalog{
+    background: rgb(20, 185, 20);
+    color: white;
+    cursor: pointer;
+}
+#navigation {
+    background: #80ec0b;
+    padding-left: 2%;
+    position: sticky;
+    /* border: dashed blue; */
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#content {
+    background: #cbf79f;
+    min-height: 100vh;
+    padding-left: 20%;
+    padding-bottom: 1%;
+    /* border: dashed blue; */
+    border: 1px solid transparent;
+}
+#footer{
+    background: green;
+    /* border: dashed red; */
+    padding-left: 2%;
+    position: fixed;
+    left: 0;
+    width: 99%;
+    position: absolute;
+    border: 1px solid transparent;
+}
+#poisk {
+    margin-top: -5%;
+    margin-left: 15%;
+    padding-bottom: 2%;
+    width: 70%;
+    height: 50%;
+    border: dashed red;
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+}
+.search {
+    width: 30%;
+}
+#bluba{
+    background: rgb(20, 185, 20);
+    border: none;
+    cursor: pointer;
+}
+
+#diskont{
+    width: 3%;
+    height: 40px;
+    margin-left: 5%;
+}
+.image-button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding-right: 1%;
+}
+.image-button:hover{
+    filter: brightness(0.7);
+}
+h4{
+    margin-top: -1%;
+}
+#rating-bar { 
+    margin-bottom: 2%;
+}
+#pois{
+    min-height: 50%;
+    width: 30%;
+    position: absolute;
+    right: 30%;
+    padding-bottom: 2%;
+    /* border: dashed red; */
+}
+#harakt{
+    margin-top: 4%;
+    display: inline-block;
+}
+#hfrateristiki{
+    /* border: dashed red; */
+    width: 30%;
+    display: inline-block;
+}
+
+#prise{
+    margin-top: 4%;
+    height: 100%;
+}
+#prise a{
+    font-size: 300%;
+    color: rgb(16, 160, 16);
+}
+#kupit{
+    background: #99ff33;
+    cursor: pointer;
+    margin-top: 4%;
+    width: 30%;
+    height: 50px;
+}
+.perehod{
+    cursor: pointer;
+}
+.perehod:hover{
+    text-decoration: underline;
+    color: blue;
+}
+#korsina{
+    width: 3%;
+    height: 40px;
+    margin-left: 10%;
+}
+.otziv{
+    background: #26e033;
+    width: 50%;
+    min-height: 100px;
+    border-radius: 10%;
+    padding-left: 2%;
+    padding-top: 0.5%;
+    margin-top: 2%;
+}

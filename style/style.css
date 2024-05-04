@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background:  #99ff33;
+    padding-left: 1%;
+    height: 30%;
+    /* border: dashed red; */
+    /* border: 1px solid transparent; */
+}
+#logo{
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+#katalog{
+    background: rgb(20, 185, 20);
+    color: white;
+    cursor: pointer;
+}
+#navigation {
+    background: #80ec0b;
+    padding-left: 2%;
+    position: sticky;
+    /* border: dashed blue; */
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+#content {
+    background: #cbf79f;
+    min-height: 100vh;
+    padding-left: 20%;
+    padding-bottom: 1%;
+    /* border: dashed blue; */
+    border: 1px solid transparent;
+}
+#footer{
+    background: green;
+    /* border: dashed red; */
+    padding-left: 2%;
+    border: 1px solid transparent;
+}
+#poisk {
+    margin-top: -5%;
+    margin-left: 15%;
+    padding-bottom: 2%;
+    width:70%;
+    height: 50%;
+    /* border: dashed red; */
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+}
+.search {
+    width: 30%;
+}
+#bluba{
+    background: rgb(20, 185, 20);
+    border: none;
+    cursor: pointer;
+}
+#korsina{
+    width: 3%;
+    height: 40px;
+    margin-left: 10%;
+}
+#diskont{
+    width: 3%;
+    height: 40px;
+    margin-left: 5%;
+}
+#salekn{
+    background: rgb(20, 185, 20);
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 4; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+}
+.modal-content {
+    z-index: 1;
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 70%;
+    min-height: 30%;
+}
+#kn1{
+    display: none;
+    align-items: center;
+}
+#kn2{
+    display: none;
+    align-items: center;
+}
+.pr1{
+    margin-left: 5%;
+}
+#productIcon {
+    margin-right: 5%; 
+    padding-bottom: 2%;
+}
+.modal-content button{
+    background: rgb(20, 185, 20);
+    float: right;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 3%;
+}
+#harakt{
+    margin-top: 4%;
+}
+#banner {
+    margin-top: 0.5%;
+    margin-left: -24%;
+    width: 300px; 
+    height: 600px; 
+    overflow: hidden;
+}
+.side{
+    z-index: 4;
+}
+@-webkit-keyframes anim {
+    0% {
+        -webkit-transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(-100%);
+    }
+}
+.sade1{
+    z-index: 4;
+    -webkit-animation: anim 10s infinite linear;
+    animation-delay: 5s;
+}
+#tovar{
+    display: flex;
+    margin-top: -40%;
+    margin-left: 2%;
+}
+#tovar1{
+    display: flex;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.book {
+    /* border: dashed red; */
+    width: 20%;
+}
+.book img{
+    /* border: dashed red; */
+    margin-left: 10%;
+    padding-bottom: 2%;
+}
+.price{
+    font-size: 50px;
+    color: red;
+}
+.perehod{
+    font-size: 30px;
+    cursor: pointer;
+}
+.perehod:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.knoki{ 
+    /* border: dashed red; */
+    display: flex;
+    margin-top: 4%;
+    bottom: 0;
+    right: 0;
+}
+.kupid{
+    padding-right: 1%;
+    background: #99ff33;
+    cursor: pointer;
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+.kor{
+    cursor: pointer;
+    border: none;
+    width: 20%;
+    height: 50px;
+}
+

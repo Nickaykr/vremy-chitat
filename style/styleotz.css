@@ -89,4 +89,9 @@ form {
     height: 40px;
     margin-left: 5%;
 }
-
+#salekn{
+    background: rgb(20, 185, 20);
+    color: #fefefe;
+    border: none;
+    cursor: pointer;
+}
